@@ -1,5 +1,7 @@
+local S = minetest.get_translator(minetest.get_current_modname())
+
 armor:register_armor(":armor_expanded:helmet_leather", {
-	description = "Leather Helmet",
+	description = S("Leather Cap"),
 	inventory_image = "armor_expanded_inv_helmet_leather.png",
 	groups = {armor_head=1, armor_heal=0, armor_use=800, flammable=1},
 	armor_groups = {fleshy=7},
@@ -7,7 +9,7 @@ armor:register_armor(":armor_expanded:helmet_leather", {
 })
 
 armor:register_armor(":armor_expanded:chestplate_leather", {
-	description = "Leather Chestplate",
+	description = S("Leather Tunic"),
 	inventory_image = "armor_expanded_inv_chestplate_leather.png",
 	groups = {armor_torso=1, armor_heal=0, armor_use=800, flammable=1},
 	armor_groups = {fleshy=12},
@@ -15,7 +17,7 @@ armor:register_armor(":armor_expanded:chestplate_leather", {
 })
 
 armor:register_armor(":armor_expanded:leggings_leather", {
-	description = "Leather Leggings",
+	description = S("Leather Pants"),
 	inventory_image = "armor_expanded_inv_leggings_leather.png",
 	groups = {armor_legs=1, armor_heal=0, armor_use=800, flammable=1},
 	armor_groups = {fleshy=12},
@@ -23,7 +25,7 @@ armor:register_armor(":armor_expanded:leggings_leather", {
 })
 
 armor:register_armor(":armor_expanded:boots_leather", {
-	description = "Leather Boots",
+	description = S("Leather Boots"),
 	inventory_image = "armor_expanded_inv_boots_leather.png",
 	groups = {armor_feet=1, armor_heal=0, armor_use=800, flammable=1},
 	armor_groups = {fleshy=7},
