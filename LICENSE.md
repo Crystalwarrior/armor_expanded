@@ -1,3 +1,5 @@
+Source Code License unless otherwise specified:
+
 MIT License
 
 Copyright (c) 2022 Crystalwarrior
@@ -19,3 +21,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+===============================
+
+Armor Textures:
+
+Copyright (C) 2022 Crystalwarrior - CC-BY-SA 3.0, based on original armor textures Copyright (C) 2017-2018 davidthecreator - CC-BY-SA 3.0.
