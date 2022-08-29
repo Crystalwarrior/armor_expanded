@@ -25,9 +25,9 @@ armor:register_armor(":armor_expanded:leggings_woven", {
 armor:register_armor(":armor_expanded:boots_woven", {
 	description = "Woven Boots",
 	inventory_image = "armor_expanded_inv_boots_woven.png",
+	groups = {armor_feet=1, armor_heal=0, armor_use=2500, flammable=1},
 	armor_groups = {fleshy=3},
 	damage_groups = {cracky=3, snappy=2, choppy=3, crumbly=2, level=1},
-	groups = {armor_feet=1, armor_heal=0, armor_use=2500, flammable=1},
 })
 
 m = "woven"
